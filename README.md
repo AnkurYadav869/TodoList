@@ -14,9 +14,10 @@ To start backend in your local env, add a new .env and add DATABASE_URL:<mongoDb
 
 ``` javascript
 DATABASE_URL:<mongoDb_URL>
+```
 
-TO start
-
+## TO start in local env
+``` javascript
 npm run install:all
 npm run dev
 
