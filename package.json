@@ -1,0 +1,21 @@
+{
+    "name": "todolist",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "server": "node backend/index.js",
+        "client": "npm start --prefix frontend",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "install:all": "npm install && npm install --prefix frontend && npm install --prefix backend"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5"
+    }
+}
