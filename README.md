@@ -1,7 +1,23 @@
-TODO APP
+# ToDo APP
 
-add .env file in root folder and add DATABASE_URL:<mongo_url>
+A Basic full stack app with all the CRUD operation.
 
-To Run:  \n
-npm run install:all   \n
+## Tech stack
+
+- NodeJS, Express -backend
+- ReactJs, Tailwind -frontend
+- MongoDb -Database 
+
+## How to Configure in your local env
+
+To start backend in your local env, add a new .env and add DATABASE_URL:<mongoDb_URL> root directory
+
+``` javascript
+DATABASE_URL:<mongoDb_URL>
+
+TO start
+
+npm run install:all
 npm run dev
+
+
